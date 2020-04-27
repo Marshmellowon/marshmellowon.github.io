@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://marshmellowon.github.io/sitemap.xml
