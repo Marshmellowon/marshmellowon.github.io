@@ -9,7 +9,6 @@ sitemap:
   changefreq: daily
   priority: 1.0
 ---
-
 ## 요약
 
 - Greedy Algorithm(탐욕 알고리즘)은 최적화 문제를 해결하는 알고리즘이다.

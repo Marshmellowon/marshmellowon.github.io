@@ -1,6 +1,7 @@
 ---
 layout: project_single
-title:  "Cool Project"
+title:  "Vending Machine"
 slug: "cool-project"
 ---
-Just a demo text for now, which signifies there is lot of scope for improvement.
+### Team Project: Vending Machine
+#### Class: 컴퓨터 알고리즘 
