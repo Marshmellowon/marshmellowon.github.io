@@ -10,18 +10,6 @@ sitemap:
   priority: 1.0
 ---
 
-# 목차
-
-- [요약](http://127.0.0.1:4000/algorithm/java/greedy_algorithm/Greedy-Algorithm/#%EC%9A%94%EC%95%BD)
-- [Greedy Algorithm](http://127.0.0.1:4000/algorithm/java/greedy_algorithm/Greedy-Algorithm/#greedy-algorithm)
-  - [동전 거스름돈](http://127.0.0.1:4000/algorithm/java/greedy_algorithm/Greedy-Algorithm/#%EB%8F%99%EC%A0%84-%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88)
-  - [최소 신장 트리](http://127.0.0.1:4000/algorithm/java/greedy_algorithm/Greedy-Algorithm/#%EC%B5%9C%EC%86%8C-%EC%8B%A0%EC%9E%A5-%ED%8A%B8%EB%A6%AC)
-  - [마시멜로 실험](http://127.0.0.1:4000/algorithm/java/greedy_algorithm/Greedy-Algorithm/#3-%EB%A7%88%EC%8B%9C%EB%A9%9C%EB%A1%9C-%EC%8B%A4%ED%97%98)
-- [정리](https://marshmellowon.github.io/algorithm/java/greedy_algorithm/Greedy-Algorithm/#%EC%A0%95%EB%A6%AC)
-- [REFERENCES](https://marshmellowon.github.io/algorithm/java/greedy_algorithm/Greedy-Algorithm/#referencees)
-
----
-
 ## 요약
 
 - Greedy Algorithm(탐욕 알고리즘)은 최적화 문제를 해결하는 알고리즘이다.
