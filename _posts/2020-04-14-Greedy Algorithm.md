@@ -1,0 +1,135 @@
+---
+layout: post
+comments: true
+title: "Greedy Algorithm"
+date: 2020-04-14 01:05 +0900
+categories: [Algorithm]
+sitemap:
+  lastmod: 2020-04-25 17:00:00
+  changefreq: daily
+  priority: 1.0
+---
+
+# 목차
+
+- [요약](http://127.0.0.1:4000/algorithm/java/greedy_algorithm/Greedy-Algorithm/#%EC%9A%94%EC%95%BD)
+- [Greedy Algorithm](http://127.0.0.1:4000/algorithm/java/greedy_algorithm/Greedy-Algorithm/#greedy-algorithm)
+  - [동전 거스름돈](http://127.0.0.1:4000/algorithm/java/greedy_algorithm/Greedy-Algorithm/#%EB%8F%99%EC%A0%84-%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88)
+  - [최소 신장 트리](http://127.0.0.1:4000/algorithm/java/greedy_algorithm/Greedy-Algorithm/#%EC%B5%9C%EC%86%8C-%EC%8B%A0%EC%9E%A5-%ED%8A%B8%EB%A6%AC)
+  - [마시멜로 실험](http://127.0.0.1:4000/algorithm/java/greedy_algorithm/Greedy-Algorithm/#3-%EB%A7%88%EC%8B%9C%EB%A9%9C%EB%A1%9C-%EC%8B%A4%ED%97%98)
+- [정리](https://marshmellowon.github.io/algorithm/java/greedy_algorithm/Greedy-Algorithm/#%EC%A0%95%EB%A6%AC)
+- [REFERENCES](https://marshmellowon.github.io/algorithm/java/greedy_algorithm/Greedy-Algorithm/#referencees)
+
+---
+
+## 요약
+
+- Greedy Algorithm(탐욕 알고리즘)은 최적화 문제를 해결하는 알고리즘이다.
+- 최적화 문제는 가능한 해 중에서 가장 좋은 해(최소나 최대값)를 찾는 문제이다.
+
+## Greedy Algorithm
+
+탐욕 알고리즘은 주어진 상황에서 최선이라고 판단되는 선택을 하기 때문에 항상 좋은 선택을 고르지는 않는다.
+
+![tree](https://github.com/Marshmellowon/imagefile/blob/master/%EB%85%B8%EB%93%9C.JPG?raw=true)  
+<sup>이미지: PPT 캡쳐</sup>
+
+- 위의 트리에서 탐욕알고리즘은 가장 큰 수를 찾을때 왼쪽 자식 노드의 25의 값이 가장 크지만  
+  첫 번째 선택에서 4보다 큰 7을 선택하게 된다. 항상 좋은 결과를 얻을 수는 없다.
+
+#### 1. 동전 거스름돈
+
+- 문제: 물건을 사고 돈을 지불한 후 거스름돈을 받는데, 가장 적은 개수의 동전을 받고 싶다.
+
+* 남은 액수를 초과하지 않고 욕심내서 가장 큰 액수의 동전을 선택하면 된다.
+
+##### - Pseudo-code
+
+```java
+/* 입력: 거스름돈 액수 W */
+/* 출력: 거스름돈 액수에 대한 최소 동전 수 */
+
+/* 동전 수를 위한 변수 */
+change = W n500=n100=n50=n10=n1=0
+
+/* 500원짜리 동전 수 1증가 */
+while( chang >= 500){
+  change = change - 500, n500++;
+}
+/* 100원짜리 동전 수 1증가 */
+while(change >= 100){
+  change = change - 100, 100++;
+}
+/* 50원짜리 동전 수 1증가 */
+while(change >= 50){
+  change = change - 50, 50++;
+}
+/* 10원짜리 동전 수 1증가 */
+while(change >= 10){
+  change = change - 10, 10++;
+}
+/* 1원짜리 동전 수 1증가 */
+while(change >= 1){
+  change = change - 1, 1++;
+}
+/* 총 동전 수 리턴 */
+return (n500+n100+n50+n10+n1)
+```
+
+#### 2. 최소 신장 트리
+
+- 최소 신장 트리는 주어진 가중치 그래프에서 사이클이 없이 모든 점들을 연결 시킨 트리들 중 선분들의 가중치 합이 최소인 트리이다. 크루스컬 알고리즘과 프림 알고리즘으로 구현할 수 있다.
+
+* 주어진 그래프의 신장 트리를 찾으려면 사이클이 없도록 연결 시키면 된다.
+* 크루스컬 알고리즘으로 구현을 한다면, 가중치가 가장 작은 선분이 사이클을 만들지 않을 때에만 선분을 추가시킨다.
+
+##### - Pseudo-code
+
+```java
+/*
+* 입력: 가중치 그래프 G=(V,E), V(절대값) = n (점의 수),
+* E(절대값) = m(선분의 수)
+*/
+
+/* 출력: 최소 신장 트리 T */
+
+while( T의 선분 수 < n-1 >){
+  L에서 가장 작은 가중치를 가진 선분 e를 가져오고,
+  e를 L에서 제거한다.
+  if(선분e가 T에 추가되어 사이클이 만들어지지 않으면)
+  e를 T에 추가.
+}else{
+  e를 버린다
+}
+return T
+```
+
+#### 3. 마시멜로 실험
+
+알고리즘과 심리학 실험??
+
+- 마시멜로 실험은 아이들에게 각각 첫 번째 마시멜로를 주고 "나중에 돌아오면 하나를 더 주겠다" 라고 한 후  
+  반응을 살펴보는 것이 이 실험의 기본적인 실험의 설정이다. 첫 번째 선택에서 마시멜로를 먹어버리는 아이들이
+  있는데 그 아이들은 가정환경의 영향 때문에 연구원의 말에 의심을 품고 먹어버린다는 것이다.
+- 그리디 알고리즘으로 생각해 보면, 선택이 주어졌을때 항상 마시멜로의 개수가 많은 선택을 하는 것이다.
+
+![마시멜로 실험](https://github.com/Marshmellowon/imagefile/blob/master/%EB%A7%88%EC%8B%9C%EB%A9%9C%EB%A1%9C%20%EC%8B%A4%ED%97%98.JPG?raw=true)  
+<sup>이미지: PPT 캡쳐</sup>
+
+- 위의 트리를 보면 첫 선택에서 더 많은 갯수의 마시멜로를 선택을 하면 다음 선택에서는 추가적으로 단 1개의 마시멜로를 가지게 된다. 총 갯수를 생각해 보면 최대 4개를 얻을 수
+  있지만 그리디 알고리즘에서는 그렇지 못하다.
+
+<sup>_이 마시멜로 실험은 이후에 문제가 많다고 알려졌지만 그리디 알고리즘의 성격을 가지고 있어서 작성하였다._</sup>
+
+## 정리
+
+그리디 알고리즘 문제는 분할정복 알고리즘보다 구현하기가 수월했던것 같다. 하지만 그만큼 데이터셋이 많아졌을때 효율적이지 않다는 단점도 가지고 있다.
+
+문제가 주어졌을때 효율적으로 해결하기 위해 상황에 맞는 알고리즘을 적용하는 능력이 중요한 것 같다.
+
+그리디 알고리즘의 사용 예시로 AI 결정 트리 학습법을 찾아 보았다. 통계학과 데이터 마이닝, 기계학습에서 사용하는 예측 모델링 방법중 하나라고 한다. 아직 블로그에 작성하기에는 좀더 공부가 필요할 것 같다.
+
+### REFERENCEES
+
+- 알기쉬운 알고리즘
+- [중앙SUNDAY](https://news.joins.com/article/22800824)

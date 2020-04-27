@@ -1,10 +1,10 @@
-title: Stack Problems
+title: Posts
 description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+author: "[.log]"
+github: https://github.com/Marshmellowon
+about: Programming & Photo
+disqus_shortname: "marshmellowon-github-io"
+google_analytics: UA-164515885-1
 
 enableTags: true
 tagarray: []
@@ -15,16 +15,10 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+    - icon: fa-instagram
+      link: "https://www.instagram.com/s.wlli/"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/Marshmellowon"
 
 share:
   twitter_username: github.io
@@ -38,7 +32,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://marshmellowon.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20

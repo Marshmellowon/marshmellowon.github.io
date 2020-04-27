@@ -1,9 +1,32 @@
 ---
 layout: page
-title: About
+title: ABOUT
 permalink: /about/
 ---
+###### Latest Update : {{site.time}}
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+# My First Blog
 
-email: agus[at]python.web.id
+#### 1. Name: Lee Sang Won
+
+#### 2. Age: 24
+
+#### 3. Intersts
+
+- Cycling
+- Take a photo
+- Listen Music
+- Work Out
+
+#### 4. What kind of topic will posted
+
+- My own pictures which are edited with lightloom.
+- My Europe trip with freiends.
+
+#### 5. Contact Me
+
+##### E-mail: [leo503801@gmail.com](mailto:leo503801@gmail.com)
+
+##### Instagram: [s.wlli](https://www.instagram.com/s.wlli/)
+
+##### GitHub: [Marshmellowon](https://github.com/Marshmellowon)
