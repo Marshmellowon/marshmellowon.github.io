@@ -21,7 +21,7 @@ permalink: /about/
 #### 4. What kind of topic will posted
 
 - My own pictures which are edited with lightloom.
-- My Europe trip with freiends.
+- My Europe trip with friends.
 
 #### 5. Contact Me
 
