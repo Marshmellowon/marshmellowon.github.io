@@ -15,22 +15,22 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-instagram
-      link: "https://www.instagram.com/s.wlli/"
-    - icon: fa-github
-      link: "https://github.com/Marshmellowon"
+  - icon: fa-instagram
+    link: "https://www.instagram.com/s.wlli/"
+  - icon: fa-github
+    link: "https://github.com/Marshmellowon"
 
 share:
   twitter_username: github.io
   fb_appid: 1749788565247320
 
 urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+  - text: About Me
+    url: /about/
+  - text: My Projects
+    url: /projects/
+  - text: XML Feed
+    url: /feed.xml
 
 url: "https://marshmellowon.github.io"
 baseurl: ""
@@ -41,10 +41,11 @@ markdown: kramdown
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-feed
 
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
   endings: all
   ignore:
-    envs: ['development']
+    envs: ["development"]
