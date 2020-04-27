@@ -15,10 +15,10 @@ permalink: /about/
 
 - Cycling
 - Take a photo
-- Listen Music
+- Listen to Music
 - Work Out
 
-#### 4. What kind of topic will posted
+#### 4. What kind of topic will be posted
 
 - My own pictures which are edited with lightloom.
 - My Europe trip with friends.
