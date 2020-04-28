@@ -101,7 +101,7 @@ return T
   있는데 그 아이들은 가정환경의 영향 때문에 연구원의 말에 의심을 품고 먹어버린다는 것이다.
 - 그리디 알고리즘으로 생각해 보면, 선택이 주어졌을때 항상 마시멜로의 개수가 많은 선택을 하는 것이다.
 
-![마시멜로 실험](https://github.com/Marshmellowon/marshmellowon.github.io/tree/master/static/img/_posts/marshmellotest.JPG)  
+![마시멜로 실험](https://github.com/Marshmellowon/marshmellowon.github.io/blob/master/static/img/_posts/marshmellotest.JPG?raw=true)  
 <sup>이미지: PPT 캡쳐</sup>
 
 - 위의 트리를 보면 첫 선택에서 더 많은 갯수의 마시멜로를 선택을 하면 다음 선택에서는 추가적으로 단 1개의 마시멜로를 가지게 된다. 총 갯수를 생각해 보면 최대 4개를 얻을 수
