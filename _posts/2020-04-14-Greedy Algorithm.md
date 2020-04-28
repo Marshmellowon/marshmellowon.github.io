@@ -9,6 +9,7 @@ sitemap:
   changefreq: daily
   priority: 1.0
 ---
+
 ## 요약
 
 - Greedy Algorithm(탐욕 알고리즘)은 최적화 문제를 해결하는 알고리즘이다.
@@ -100,7 +101,7 @@ return T
   있는데 그 아이들은 가정환경의 영향 때문에 연구원의 말에 의심을 품고 먹어버린다는 것이다.
 - 그리디 알고리즘으로 생각해 보면, 선택이 주어졌을때 항상 마시멜로의 개수가 많은 선택을 하는 것이다.
 
-![마시멜로 실험](https://github.com/Marshmellowon/imagefile/blob/master/%EB%A7%88%EC%8B%9C%EB%A9%9C%EB%A1%9C%20%EC%8B%A4%ED%97%98.JPG?raw=true)  
+![마시멜로 실험](https://github.com/Marshmellowon/marshmellowon.github.io/tree/master/static/img/_posts/marshmellotest.JPG)  
 <sup>이미지: PPT 캡쳐</sup>
 
 - 위의 트리를 보면 첫 선택에서 더 많은 갯수의 마시멜로를 선택을 하면 다음 선택에서는 추가적으로 단 1개의 마시멜로를 가지게 된다. 총 갯수를 생각해 보면 최대 4개를 얻을 수
