@@ -7,7 +7,7 @@ permalink: /about/
 
 # My First Blog
 
-#### 1. Name: Lee Sang Won
+#### 1. Name: Lee Sang Won  
 
 #### 2. Age: 24
 
