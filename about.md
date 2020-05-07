@@ -1,32 +1,24 @@
 ---
 layout: page
-title: ABOUT
+title: ABOUT AUTHOR
 permalink: /about/
 ---
-###### Latest Update : {{site.time}}
 
-# My First Blog
+### > Name: Lee Sang Won
 
-#### 1. Name: Lee Sang Won  
+### > Location: Seoul
 
-#### 2. Age: 24
-
-#### 3. Intersts
+### > Intersts
 
 - Cycling
 - Take a photo
 - Listen to Music
 - Work Out
 
-#### 4. What kind of topic will be posted
+### > Contact Me
 
-- My own pictures which are edited with lightloom.
-- My Europe trip with friends.
+#### E-mail: [leo503801@gmail.com](mailto:leo503801@gmail.com)
 
-#### 5. Contact Me
+#### Instagram: [s.wlli](https://www.instagram.com/s.wlli/)
 
-##### E-mail: [leo503801@gmail.com](mailto:leo503801@gmail.com)
-
-##### Instagram: [s.wlli](https://www.instagram.com/s.wlli/)
-
-##### GitHub: [Marshmellowon](https://github.com/Marshmellowon)
+#### GitHub: [Marshmellowon](https://github.com/Marshmellowon)
