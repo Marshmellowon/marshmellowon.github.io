@@ -19,8 +19,7 @@ sitemap:
 
 탐욕 알고리즘은 주어진 상황에서 최선이라고 판단되는 선택을 하기 때문에 항상 좋은 선택을 고르지는 않는다.
 
-![tree](https://github.com/Marshmellowon/imagefile/blob/master/%EB%85%B8%EB%93%9C.JPG?raw=true)  
-<sup>이미지: PPT 캡쳐</sup>
+![tree](https://github.com/Marshmellowon/marshmellowon.github.io/blob/master/static/img/_posts/greedy/tree2.png?raw=true)
 
 - 위의 트리에서 탐욕알고리즘은 가장 큰 수를 찾을때 왼쪽 자식 노드의 25의 값이 가장 크지만  
   첫 번째 선택에서 4보다 큰 7을 선택하게 된다. 항상 좋은 결과를 얻을 수는 없다.
