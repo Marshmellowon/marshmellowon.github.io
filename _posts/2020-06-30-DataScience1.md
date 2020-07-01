@@ -2,7 +2,7 @@
 layout: post
 title: "Data Science.Data & AI 시작하기(1)"
 date: 2020-06-30 18:43:25 +0900
-categories: [AI, Hanium]
+categories: [AI, Hanium, Blended_Learning]
 sitemap:
 lastmod: 2020-04-25 17:00:00
 changefreq: daily

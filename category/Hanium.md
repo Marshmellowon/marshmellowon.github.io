@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: Hanuum
-title: Hanuum
-permalink: /category/Hanuum
+categories: Hanium
+title: Hanium
+permalink: /category/Hanium
 ---
