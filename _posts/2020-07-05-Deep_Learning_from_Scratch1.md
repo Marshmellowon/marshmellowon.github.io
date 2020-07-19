@@ -49,7 +49,7 @@ plt.legend()
 plt.show()
 ```
 
-위 코드를 실행한 그래프이다.   
+위 코드를 실행한 그래프이다.  
 ![cos&sin](https://github.com/Marshmellowon/marshmellowon.github.io/blob/master/static/img/_posts/Deep_Learning/cossin.png?raw=true)
 
 이미지를 표시하려면 matplotlib의 image에서 imread를 import하여 사용한다.
@@ -63,4 +63,4 @@ plt.imshow(img)
 plt.show()
 ```
 
-##### 다음 post: [Deep Learning for Scratch(2)]()
+##### 다음 post: [Deep Learning for Scratch(2)](https://marshmellowon.github.io/ai/python/2020/07/08/Deep_Learning_from_Scratch2.html)
