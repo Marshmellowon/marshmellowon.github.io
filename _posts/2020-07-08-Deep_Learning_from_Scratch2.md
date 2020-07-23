@@ -92,3 +92,5 @@ print(ANDbias(1, 1))    # 1
 ## 정리
 
 신경망의 기초가되는 퍼셉트론 알고리즘을 알아보았다.
+
+##### 다음 post: [Deep Learning for Scratch(3)](https://marshmellowon.github.io/ai/python/2020/07/08/Deep_Learning_from_Scratch3.html)
