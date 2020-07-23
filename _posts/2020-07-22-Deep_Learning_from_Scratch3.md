@@ -1,6 +1,12 @@
 ---
+layout: post
 title: "Deep Learning for Scratch(3)"
 date: 2020-07-22 00:33:25 +0900
+categories: [AI, Python]
+sitemap:
+lastmod: 2020-04-25 17:00:00
+changefreq: daily
+priority: 1.0
 ---
 
 <sub>책 정보: [밑바닥부터 시작하는 딥러닝](https://www.hanbit.co.kr/store/books/look.php?p_code=B8475831198)</sub>
