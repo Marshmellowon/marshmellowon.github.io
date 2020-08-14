@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deep Learning for Scratch(2)"
-date: 2020-07-08 12:08:25 +0900
+date: 2020-07-08 12:08:24 +0900
 categories: [AI, Python]
 sitemap:
 lastmod: 2020-04-25 17:00:00
