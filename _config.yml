@@ -1,51 +1,51 @@
-title: Posts
-description: My Personal Stack Problems
-author: "[.log]"
-github: https://github.com/Marshmellowon
-about: Programming & Photo
-disqus_shortname: "marshmellowon-github-io"
+# Site Settings
+baseurl: ""
+url: "https://naye0ng.github.io"
 google_analytics: UA-164515885-1
 
-enableTags: true
-tagarray: []
+# Blog Settings
+theme_settings:
+  title: Grape Theme
+  description:
+  favicon: assets/favicon.ico
 
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
+  # Profile Settings
+  profile:
+    image: assets/img/smile.png
+    username: Nayeong Kim
+    description: creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    experience:
+      - start: 2017-05-03
+        end: 2018-05-06
+        experience: company name, title
+    skills:
+      - skill: HTML5 & CSS
+        value: 85 # Percent value
 
-social:
-  - icon: fa-instagram
-    link: "https://www.instagram.com/s.wlli/"
-  - icon: fa-github
-    link: "https://github.com/Marshmellowon"
+  # Icons
+  icons:
+    email: # Full email address, e.g. "sample@google.com"
+    linkedin: # Full URL
+    github: naye0ng
+    gitlab:
+    bitbucket:
+    google_plus:
+    twitter:
+    youtube:
+    facebook:
+    instagram:
 
-share:
-  twitter_username:
-  fb_appid: 
+  # Disqus
+  disqus_shortname: "marshmellowon-github-io"
 
-urls:
-  - text: About Me
-    url: /about/
-  - text: My Projects
-    url: /projects/
-  - text: XML Feed
-    url: /feed.xml
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
 
-url: "https://marshmellowon.github.io"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page/:num/"
-markdown: kramdown
-gems:
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-feed
-
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ["development"]
+# Build Ssttings
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [jekyll-paginate]
+bootstrap:
+  assets: true

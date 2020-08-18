@@ -1,5 +1,6 @@
-source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+# frozen_string_literal: true
+source "https://rubygems.org"
+gemspec
 
-gem 'jekyll-feed'
-gem 'jekyll-sitemap'
+gem 'github-pages'
+gem "jekyll-paginate"
