@@ -1,6 +1,6 @@
 # Site Settings
 baseurl: ""
-url: "https://naye0ng.github.io"
+url: "https://marshmellowon.github.io/"
 google_analytics: UA-164515885-1
 
 # Blog Settings
@@ -12,8 +12,8 @@ theme_settings:
   # Profile Settings
   profile:
     image: assets/img/smile.png
-    username: Nayeong Kim
-    description: creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    username: Sangwon Lee
+    description: Photograph & Programming
     experience:
       - start: 2017-05-03
         end: 2018-05-06
@@ -24,16 +24,16 @@ theme_settings:
 
   # Icons
   icons:
-    email: # Full email address, e.g. "sample@google.com"
+    email: leo503801@gmail.com # Full email address, e.g. "sample@google.com"
     linkedin: # Full URL
-    github: naye0ng
+    github: Marshmellowon
     gitlab:
     bitbucket:
     google_plus:
     twitter:
     youtube:
     facebook:
-    instagram:
+    instagram: s.wlli
 
   # Disqus
   disqus_shortname: "marshmellowon-github-io"
