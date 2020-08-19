@@ -1,13 +1,13 @@
 // Definition of tag style in post
 #post {
+  sup,
   sub {
-    line-height: 0;
-    font-size: 0.83em;
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
   }
-  sup {
-    font-size: 0.83em;
-    vertical-align: super;
-    line-height: 0;
+  sub {
+    top: 0.4em;
   }
   h1,
   h2,
