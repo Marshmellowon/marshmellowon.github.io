@@ -1,10 +1,13 @@
 ---
 layout: post
 title: "Deep Learning for Scratch(2)"
-date: 2020-07-08 12:08:24 +0900
-categories: [AI, Python]
-sitemap:
+subtitle: Deep Learning Study
+tags: [AI, Python]
+author: marshmello
+comments: True
+date: 2020-07-08
 lastmod: 2020-04-25 17:00:00
+sitemap:
 changefreq: daily
 priority: 1.0
 ---
@@ -18,7 +21,7 @@ priority: 1.0
 퍼셉트론의 기본 원리는 여러개의 신호를 입력으로 받고 하나의 신호를 출력하는 것이다.
 2개의 입력 신호를 받은 퍼셉트론은 다음과 같다.
 
-![perceptron](https://github.com/Marshmellowon/marshmellowon.github.io/blob/master/static/img/_posts/Deep_Learning/perceptron.png?raw=true)
+![perceptron](/assets/img/posts/Deep_Learning/perceptron.png)
 
 x<sub>1</sub>, x<sub>2</sub> - 입력신호
 w<sub>1</sub>, w<sub>2</sub> - 가중치
@@ -26,8 +29,8 @@ y - 출력신호
 b - 임계값
 
 퍼셉트론 동작원리를 식으로 표현한 것이다.  
-y = {0 (x<sub>1</sub>*w<sub>1</sub> + x<sub>2</sub>*w<sub>2</sub> <= b)}  
-y = {1 (x<sub>1</sub>*w<sub>1</sub> + x<sub>2</sub>*w<sub>2</sub> > b)}
+y = {0 (x<sub>1</sub>w<sub>1</sub> + x<sub>2</sub>w<sub>2</sub> <= b)}  
+y = {1 (x<sub>1</sub>w<sub>1</sub> + x<sub>2</sub>w<sub>2</sub> > b)}
 
 ## 단순한 논리 회로
 
@@ -36,7 +39,7 @@ y = {1 (x<sub>1</sub>*w<sub>1</sub> + x<sub>2</sub>*w<sub>2</sub> > b)}
 퍼셉트론으로 AND게이트를 구현할 수 있다.
 AND게이트의 진리표이다.
 
-![ANDgate](https://github.com/Marshmellowon/marshmellowon.github.io/blob/master/static/img/_posts/Deep_Learning/ANDgate.JPG?raw=true)
+![ANDgate](/assets/img/posts/Deep_Learning/ANDgate.JPG)
 
 AND게이트를 코드로 구현해 보았다.
 
@@ -60,8 +63,8 @@ print(AND(1, 1))    # 1
 ### 가중치와 편향 도입
 
 편향이 도입된 퍼셉트론의 식이다.  
-y = {0 (b + x<sub>1</sub>*w<sub>1</sub> + x<sub>2</sub>*w<sub>2</sub> <= 0)}  
-y = {1 (b + x<sub>1</sub>*w<sub>1</sub> + x<sub>2</sub>*w<sub>2</sub> > 0)}
+y = {0 (b + x<sub>1</sub>w<sub>1</sub> + x<sub>2</sub>w<sub>2</sub> <= 0)}  
+y = {1 (b + x<sub>1</sub>w<sub>1</sub> + x<sub>2</sub>w<sub>2</sub> > 0)}
 
 편향을 사용하면 두 입력이 모두 0이어도 최종결과는 편향값을 출력한다.
 

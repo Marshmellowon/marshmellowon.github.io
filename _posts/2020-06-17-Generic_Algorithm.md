@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "Generic Algorithm(Tesla Stock Price)"
-date: 2020-06-17 14:30:25 +0900
-categories: [Python, Algorithm]
-sitemap:
+title: "Generic Algorithm"
+subtitle: Tesla Stock Price
+tags: [Python, Algorithm]
+author: marshmello
+comments: True
+date: 2020-06-17
 lastmod: 2020-04-25 17:00:00
+sitemap:
 changefreq: daily
 priority: 1.0
 ---
@@ -203,25 +206,32 @@ def invert(char):
 - 초기 데이터의 산점도와 예측된 값들의 산점도이다.
 - pandas library를 사용하여 초기 데이터와 예측된 데이터를 DataFrame에 넣고, matlibplot library를 이용하여 산점도를 그렸다.
 
-```python
+{% highlight python %}
+
 # pandas library로 DataFrame 지정
+
 MSEGrapg = pd.DataFrame(
-    {"aValue": x, "MSE": y}
+{"aValue": x, "MSE": y}
 )
 
 OpPrice = pd.DataFrame(
-    {"temp": arr, "hum": avg}
+{"temp": arr, "hum": avg}
 )
 
 predictgraph = pd.DataFrame(
-    {"temp2": RanOpenprice, "hum2": yPredict}
+{"temp2": RanOpenprice, "hum2": yPredict}
 )
 
 # 그래프 그리기
+
 plt.figure()
+
 # 기존 데이터의 그래프를 그린다
+
 one = plt.scatter(OpPrice['temp'], OpPrice['hum'], marker="o")
+
 # 예측된 기울기로 그래프를 예측한다.
+
 two = plt.scatter(predictgraph["temp2"], predictgraph["hum2"], marker="x")
 plt.legend(handles=(one, two), labels=("Initial data", "predicted data"), loc="upper left")
 plt.xlabel('Open_Price')
@@ -229,21 +239,24 @@ plt.ylabel('Average_Price')
 plt.savefig("Tesla.png")
 
 plt.figure()
+
 # MSE 평가지표 그래프
+
 MSEleg = plt.scatter(MSEGrapg['aValue'], MSEGrapg['MSE'], marker="o")
 plt.xlabel('Inclination')
 plt.ylabel('MSE')
 plt.savefig("TeslaMSE.png")
 
 # 그래프 띄우기
+
 plt.show()
 
-```
+{% endhighlight %}
 
 - 초기 데이터는 파란색 o모양 마커를 사용하였고, 예측된 데이터는 주황색 x모양 마커를 사용하였다.
 - 최종 예측된 기울기는 1이다.
 
-![산점도 사진.png](https://github.com/Marshmellowon/marshmellowon.github.io/blob/master/static/img/_posts/Generic_Algorithm/Tesla.png?raw=true)
+![산점도 사진.png](/assets/img/posts/Generic_Algorithm/Tesla.png)
 
 ## MSE(평균 제곱 오차)
 
@@ -253,14 +266,15 @@ plt.show()
 - MSE의 값이 작을수록 원본과의 오차가 적으며 추측한 값의 정확도가 높은 것이다.
 - 아래 MSE 그래프를 보면 원래 기울기와의 오차가 클수록 MSE값이 커지는 것을 볼 수 있다.
 
-![MSE 그래프](https://github.com/Marshmellowon/marshmellowon.github.io/blob/master/static/img/_posts/Generic_Algorithm/TeslaMSE.png?raw=true)
+![MSE 그래프](/assets/img/posts/Generic_Algorithm/TeslaMSE.png)
 
 - 코드가 실행될 때 어떤 값들을 예측하고 지나가는지 알기위해 각 함수 출력도 같이 하였다.
 - MSE의 값이 가장 작은 기울기가 1로 나왔다.
 
 ##### 출력한 값들이다.
 
-```markdown
+```txt
+
 init: [35, 2, 4, 1]
 selection: [35, 35, 35, 35]
 inttobin: ['00100011', '00100011', '00100011', '00100011']
@@ -269,9 +283,8 @@ mutationed: [35.0, 35.0, 35.0, 35.0]
 MSEarr: [67913541.24469241, 135827082.48938468, 203740623.734077, 271654164.97876936]
 예측된 기울기: 35.0
 
----
-
 최소 MSE를 만족하는 기울기: 1.0
+
 ```
 
 ## 정리

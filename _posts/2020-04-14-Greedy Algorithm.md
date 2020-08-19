@@ -1,13 +1,15 @@
 ---
 layout: post
-comments: true
 title: "Greedy Algorithm"
-date: 2020-04-14 01:05 +0900
-categories: [Algorithm]
+subtitle:
+tags: [Algorithm]
+author: marshmello
+comments: True
+date: 2020-04-14
+lastmod: 2020-04-25 17:00:00
 sitemap:
-  lastmod: 2020-04-25 17:00:00
-  changefreq: daily
-  priority: 1.0
+changefreq: daily
+priority: 1.0
 ---
 
 ## 요약
@@ -19,7 +21,7 @@ sitemap:
 
 탐욕 알고리즘은 주어진 상황에서 최선이라고 판단되는 선택을 하기 때문에 항상 좋은 선택을 고르지는 않는다.
 
-![tree](https://github.com/Marshmellowon/marshmellowon.github.io/blob/master/static/img/_posts/greedy/tree2.png?raw=true)
+![tree](/assets/img/posts/greedy/tree2.png)
 
 - 위의 트리에서 탐욕알고리즘은 가장 큰 수를 찾을때 왼쪽 자식 노드의 25의 값이 가장 크지만  
   첫 번째 선택에서 4보다 큰 7을 선택하게 된다. 항상 좋은 결과를 얻을 수는 없다.
@@ -100,7 +102,7 @@ return T
   있는데 그 아이들은 가정환경의 영향 때문에 연구원의 말에 의심을 품고 먹어버린다는 것이다.
 - 그리디 알고리즘으로 생각해 보면, 선택이 주어졌을때 항상 마시멜로의 개수가 많은 선택을 하는 것이다.
 
-![마시멜로 실험](https://github.com/Marshmellowon/marshmellowon.github.io/blob/master/static/img/_posts/marshmellotest.JPG?raw=true)  
+![마시멜로 실험](/assets/img/posts/marshmellotest.JPG)  
 <sup>이미지: PPT 캡쳐</sup>
 
 - 위의 트리를 보면 첫 선택에서 더 많은 갯수의 마시멜로를 선택을 하면 다음 선택에서는 추가적으로 단 1개의 마시멜로를 가지게 된다. 총 갯수를 생각해 보면 최대 4개를 얻을 수

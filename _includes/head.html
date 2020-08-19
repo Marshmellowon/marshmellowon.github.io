@@ -53,9 +53,10 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
 
   <!-- OG Tag -->
-  {% if page.title %} {% assign title = site.theme_settings.title | append: "-"
-  | append: page.title %} {% else %} {% assign title = site.theme_settings.title
-  | append: "site.theme_settings.description" %} {% endif %}
+  {% if page.title %} {% assign title = site.theme_settings.title | append: " |
+  " | append: page.title %} {% else %} {% assign title =
+  site.theme_settings.title |append: " | " | append:
+  site.theme_settings.description %} {% endif %}
   <meta name="title" content="{{ title }}" />
   <meta name="author" content="{{ site.theme_settings.profile.username }}" />
   <meta name="keywords" content="{{ page.tags | join: ',' }}" />

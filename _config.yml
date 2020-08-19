@@ -5,8 +5,8 @@ google_analytics: UA-164515885-1
 
 # Blog Settings
 theme_settings:
-  title: Grape Theme
-  description:
+  title: .log
+  description: marshmello's Blog
   favicon: assets/favicon.ico
 
   # Profile Settings
@@ -15,12 +15,12 @@ theme_settings:
     username: Sangwon Lee
     description: Photograph & Programming
     experience:
-      - start: 2017-05-03
-        end: 2018-05-06
-        experience: company name, title
+      - start: 2020-03-02
+        end:
+        experience: INU, Information and Communication Engineering
     skills:
-      - skill: HTML5 & CSS
-        value: 85 # Percent value
+      - skill: PYTHON
+        value: 10 # Percent value
 
   # Icons
   icons:
@@ -39,7 +39,7 @@ theme_settings:
   disqus_shortname: "marshmellowon-github-io"
 
 # Pagination
-paginate: 5
+paginate: 7
 paginate_path: "blog/page:num"
 
 # Build Ssttings

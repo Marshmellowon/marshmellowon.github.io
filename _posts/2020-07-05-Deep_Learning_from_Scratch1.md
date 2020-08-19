@@ -1,10 +1,13 @@
 ---
 layout: post
 title: "Deep Learning for Scratch(1)"
-date: 2020-07-05 00:28:25 +0900
-categories: [AI, Python]
-sitemap:
+subtitle: Deep Learning Study
+tags: [AI, Python]
+author: marshmello
+comments: True
+date: 2020-07-05
 lastmod: 2020-04-25 17:00:00
+sitemap:
 changefreq: daily
 priority: 1.0
 ---
@@ -50,7 +53,7 @@ plt.show()
 ```
 
 위 코드를 실행한 그래프이다.  
-![cos&sin](https://github.com/Marshmellowon/marshmellowon.github.io/blob/master/static/img/_posts/Deep_Learning/cossin.png?raw=true)
+![cos&sin](/assets/img/posts/Deep_Learning/cossin.png)
 
 이미지를 표시하려면 matplotlib의 image에서 imread를 import하여 사용한다.
 
