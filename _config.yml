@@ -5,7 +5,7 @@ google_analytics: UA-164515885-1
 
 # Blog Settings
 theme_settings:
-  title: .log
+  title: marshmel.log
   description: marshmello's Blog
   favicon: assets/favicon.ico
 
@@ -15,6 +15,9 @@ theme_settings:
     username: Sangwon Lee
     description: Photograph & Programming
     experience:
+      - start: 2020-08-01
+        end:
+        experience: TAVE, 6TH
       - start: 2020-03-02
         end:
         experience: INU, Information and Communication Engineering

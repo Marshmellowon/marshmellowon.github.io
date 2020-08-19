@@ -2,7 +2,12 @@
 #post {
   sub {
     line-height: 0;
-    font-size: smaller;
+    font-size: 0.83em;
+  }
+  sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
   }
   h1,
   h2,
