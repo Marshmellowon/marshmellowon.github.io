@@ -1,5 +1,8 @@
 // Definition of tag style in post
 #post {
+  .bold {
+    font-weight: bold;
+  }
   sup,
   sub {
     vertical-align: baseline;
