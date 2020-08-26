@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Pytorch
+title: Pytorch basics
 subtitle: TAVE 6TH Reinforcement Learning Study
-tags: [TAVE, Study, RL]
+tags: [TAVE, pytorch]
 author: marshmello
 comments: True
 date: 2020-08-26
