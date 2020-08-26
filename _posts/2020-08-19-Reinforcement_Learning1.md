@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TAVE Reinforcement Learning(1)"
+title: Reinforcement Learning
 subtitle: TAVE 6TH Reinforcement Learning Study
 tags: [TAVE, Reinforcement Learning]
 author: marshmello
