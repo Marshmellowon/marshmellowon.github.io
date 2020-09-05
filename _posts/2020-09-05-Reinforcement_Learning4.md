@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Abouot CNN, RNN
+title: About CNN, RNN
 subtitle: TAVE 6TH Reinforcement Learning Study
 tags: [TAVE, Deep Learning]
 author: marshmello
