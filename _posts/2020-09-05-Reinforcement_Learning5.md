@@ -30,8 +30,8 @@ priority: 1.0
 - LSTM Cell은 RNN Cell의 장기 의존성 문제를 해결하며, 빠르게 학습이 가능하다.
 - RNN과 같은 체인구조를 가지고 있지만, 반복모듈의 구조가 다르다.
 
-> 3gates : f<sub>t</sub>, i<sub>t</sub>, o<sub>t</sub>
-> 2 outputs: h<sub>t</sub>, C<sub>t</sub>
+> 3gates : f<sub>t</sub>, i<sub>t</sub>, o<sub>t</sub>  
+> 2 outputs: h<sub>t</sub>, C<sub>t</sub>  
 > 4 params: W<sub>i</sub>, W<sub>f</sub>, W<sub>o</sub>, W<sub>h</sub>
 
 ![LSTMcell](/assets/img/LSTM_GRU/LSTM_Cellmy.png)  
