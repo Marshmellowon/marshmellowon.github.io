@@ -11,7 +11,7 @@ theme_settings:
 
   # Profile Settings
   profile:
-    image: assets/img/1582618759158.jpg
+    image: assets/profile.jpg
     username: Sangwon Lee
     description: Photograph & Programming
     experience:
