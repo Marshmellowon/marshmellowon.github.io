@@ -9,7 +9,24 @@
     description: This project is class assignment with my team.
     contents:
       - title: Team Project
-        image: home.png
+        image:
         description: <li>Class - 컴퓨터알고리즘</li>
           <li>Project Repository - <a href="https://github.com/Algorithmteam2020/teamproject_vendingmachine">Team Project</a></li>
           <li>Project Readme - <a href="https://github.com/Marshmellowon/teamproject_vendingmachine">Scenebuilder 사용법</a></li>
+
+- project:
+    print: True
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    url: https://github.com/Jeiyoon/emoji # Full URL
+    image: "kobert.png" # path: assets/project/
+    date: 2020.08.13 ~ 2020.10.08 - TAVE
+    title: 2020 국어정보처리 경진대회
+    summary: 한국어 말뭉치 감성분석
+    description: 7가지 클래스의 한국어 감성분석으로 문장에 알맞는 감정 이모지 추천.
+    contents:
+      - title: TAVE 6기 머신러닝 공모전팀
+        image:
+        description: <p><b>Youtube</b></p>
+          <li><a style="color:#51adcf;" href="https://www.youtube.com/watch?v=gIhNBtruUYM&t=13s">이 말 이모지?</a></li>
+          <p><b>Paper</b></p>
+          <li><a style="color:#51adcf;">TBA</a></li>
