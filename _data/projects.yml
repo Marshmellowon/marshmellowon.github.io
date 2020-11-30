@@ -1,20 +1,4 @@
 - project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    url: https://github.com/Algorithmteam2020/teamproject_vendingmachine # Full URL
-    image: "vending.JPG" # path: assets/project/
-    date: 2020.04.17 - Team Project
-    title: Vending Machine
-    summary: Vending machine with Scene Builder
-    description: This project is class assignment with my team.
-    contents:
-      - title: Team Project
-        image:
-        description: <li>Class - 컴퓨터알고리즘</li>
-          <li>Project Repository - <a href="https://github.com/Algorithmteam2020/teamproject_vendingmachine">Team Project</a></li>
-          <li>Project Readme - <a href="https://github.com/Marshmellowon/teamproject_vendingmachine">Scenebuilder 사용법</a></li>
-
-- project:
     print: True
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     url: https://github.com/Jeiyoon/emoji # Full URL
