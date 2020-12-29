@@ -21,6 +21,8 @@ theme_settings:
       - start: 2020-03-02
         end:
         experience: INU, Information and Communication Engineering
+        site_link: http://www.inu.ac.kr/mbshome/mbs/inu/index.do
+        linkName: INU
     skills:
       - skill: PYTHON
         value: 10 # Percent value
@@ -52,3 +54,10 @@ sass:
 gems: [jekyll-paginate]
 bootstrap:
   assets: true
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false

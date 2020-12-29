@@ -10,6 +10,7 @@ lastmod: 2020-08-17 12:00:00
 sitemap:
 changefreq: daily
 priority: 1.0
+use_math: true
 ---
 
 # Outline
@@ -26,7 +27,7 @@ priority: 1.0
 - DQN은 Deep SARSA와는 다르게 Q learning의 Q Function을 업데이트 한다.
 - Q Function 업데이트를 가능하게 하기 위해 경험 리플레이를 사용한다.
 - 경험 리플레이는 에이전트가 환경에서 탐험하며 얻는 샘플(s, a, r, s’)을 메모리에 저장하는것이다.
-  ![q funtion](/assets/img/RL_Study6/q.png)  
+  ![q funtion](/assets/img/RL_Study6/q.png)
   <sub>Q-learning의 Q함수 업데이트 식</sub>
 
 ## DQN의 특징
@@ -62,7 +63,7 @@ priority: 1.0
 
 ## Markov Decision Process (MDP)
 
-- 상태(state) : 카트의 위치, 속도, 폴의 각도, 각속도  
+- 상태(state) : 카트의 위치, 속도, 폴의 각도, 각속도
   ![mdp](/assets/img/RL_Study6/agent.png)
 
 - 행동(action) : 왼쪽(0), 오른쪽(1)
@@ -355,3 +356,6 @@ for e in range(N_EPISODES):
                 agent.model.save_weights("./save_model/cartpole_dqn.h5")
                 sys.exit()
 ```
+
+$$
+$$
