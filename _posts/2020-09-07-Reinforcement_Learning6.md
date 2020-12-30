@@ -5,7 +5,7 @@ subtitle: TAVE 6TH Reinforcement Learning Study
 tags: [TAVE, DQN, Reinforcement Learning]
 author: marshmello
 comments: True
-date: 2020-09-07
+date: 2020-12-30
 lastmod: 2020-08-17 12:00:00
 sitemap:
 changefreq: daily
