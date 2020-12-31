@@ -6,7 +6,7 @@ tags: [TAVE, TAVE Research, Deep Learning]
 author: marshmello
 comments: True
 date: 2020-12-30
-lastmod: 2020-12-30 12:00:00
+lastmod: 2020-12-30 12:30:00
 sitemap:
 changefreq: daily
 priority: 1.0
