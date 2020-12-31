@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Neural Network
-subtitle: TAVE Research
+subtitle: TAVE Research Study
 tags: [TAVE, TAVE Research, Deep Learning]
 author: marshmello
 comments: True
@@ -12,8 +12,6 @@ changefreq: daily
 priority: 1.0
 use_math: true
 ---
-
-# Neural Networks
 
 ## Perceptron
 
@@ -155,3 +153,6 @@ plt.show()
 ```
 
 ![ReLU.png](/assets/img/posts/TaveResearch/neuralN1/ReLU.png)
+
+> <sub>강의: [CMU Introduction to Deep Learning](https://deeplearning.cs.cmu.edu/F20/index.html)</sub>  
+> <sub>코드: [밑바닥부터 시작하는 딥러닝](https://www.hanbit.co.kr/store/books/look.php?p_code=B8475831198)</sub>
