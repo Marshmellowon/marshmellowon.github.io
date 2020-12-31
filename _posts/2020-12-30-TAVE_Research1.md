@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Neural Network
-subtitle: TAVE Research Study
+title: Neural Network I
+subtitle: perceptron, activation function
 tags: [TAVE, TAVE Research, Deep Learning]
 author: marshmello
 comments: True
