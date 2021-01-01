@@ -1,5 +1,7 @@
 ## My first blog
 
-### Blogname: [.log]
+### Blogname: marshmellog
 
-### Author: Lee Sang Won
+### Author: Sang Won Lee
+
+### Site url: https://marshmellowon.github.io/

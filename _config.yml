@@ -5,7 +5,7 @@ google_analytics: UA-164515885-1
 
 # Blog Settings
 theme_settings:
-  title: marshmel.log
+  title: marshmellog
   description: marshmello's Blog
   favicon: assets/favicon.ico
 
