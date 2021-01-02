@@ -140,5 +140,7 @@ np.sum(res)
 - softmax 함수의 출력은 0과 1사이의 실수다.
 - softmax 함수의 출력의 총합은 1이다.
 
+###### References
+
 > <sub>강의: [CMU Introduction to Deep Learning](https://deeplearning.cs.cmu.edu/F20/index.html)</sub>  
 > <sub>코드: [밑바닥부터 시작하는 딥러닝](https://www.hanbit.co.kr/store/books/look.php?p_code=B8475831198)</sub>

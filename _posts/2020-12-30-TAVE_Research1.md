@@ -154,5 +154,7 @@ plt.show()
 
 ![ReLU.png](/assets/img/posts/TaveResearch/neuralN1/ReLU.png)
 
+###### References
+
 > <sub>강의: [CMU Introduction to Deep Learning](https://deeplearning.cs.cmu.edu/F20/index.html)</sub>  
 > <sub>코드: [밑바닥부터 시작하는 딥러닝](https://www.hanbit.co.kr/store/books/look.php?p_code=B8475831198)</sub>
