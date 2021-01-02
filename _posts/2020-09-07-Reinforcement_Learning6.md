@@ -356,6 +356,3 @@ for e in range(N_EPISODES):
                 agent.model.save_weights("./save_model/cartpole_dqn.h5")
                 sys.exit()
 ```
-
-$$
-$$
