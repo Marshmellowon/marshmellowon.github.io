@@ -82,6 +82,9 @@
           p {
             font-weight: 600;
             line-height: 0.8rem;
+            a:hover {
+              color: #6f9eaf;
+            }
           }
           .date {
             font-size: 0.75rem;
@@ -89,6 +92,10 @@
           }
           .description {
             font-size: 1rem;
+          }
+          .siteUrl {
+            font-size: 0.78rem;
+            color: #1772d0;
           }
         }
         li.meta::before {

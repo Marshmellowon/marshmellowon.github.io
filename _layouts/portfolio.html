@@ -32,6 +32,7 @@ layout: page
         <li class="meta">
           <p class="date">{{ exp.start }} ~ {{ exp.end }}</p>
           <p class="description">{{ exp.experience }}</p>
+          <p><a class="siteUrl" href={{ exp.site_link }}>{{ exp.linkName }}</a></p>
         </li>
         {% endfor %}
       </ul>

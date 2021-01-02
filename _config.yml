@@ -20,11 +20,13 @@ theme_settings:
       - start: 2020-08-01
         end: 2020-11-28
         experience: TAVE, 6TH
+        site_link: https://blog.naver.com/t-ave
+        linkName: TAVE
       - start: 2020-03-02
         end:
-        experience: INU, Information and Communication Engineering
+        experience: INU [Information and Communication Engineering]
         site_link: http://www.inu.ac.kr/mbshome/mbs/inu/index.do
-        linkName: INU
+        linkName: INCHEON NATIONAL UNIVERSITY
     skills:
       - skill: PYTHON
         value: 10 # Percent value
