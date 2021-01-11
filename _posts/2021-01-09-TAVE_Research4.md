@@ -6,7 +6,7 @@ tags: [TAVE, TAVE Research, Deep Learning]
 author: marshmello
 comments: True
 date: 2021-01-09
-lastmod: 2021-01-09 02:10:00
+lastmod: 2021-01-11 21:34:00
 sitemap:
 changefreq: daily
 priority: 1.0
@@ -269,5 +269,7 @@ Y = {f}\_N(W_N{f}\_{N-1}(...f_2(W_2f_1(W_1x+b_1)+b_2)...+b_N)
   $b_k = b_k {-{\eta / T}(\nabla_{W_k}Loss)^T}$
 
 - Until Loss has converged
+
+###### References
 
 > <sub>강의: [CMU Introduction to Deep Learning](https://deeplearning.cs.cmu.edu/F20/index.html)</sub>
