@@ -66,4 +66,4 @@ plt.imshow(img)
 plt.show()
 ```
 
-##### 다음 post: [Deep Learning for Scratch(2)](https://marshmellowon.github.io/ai/python/2020/07/08/Deep_Learning_from_Scratch2.html)
+##### 다음 post: [Deep Learning for Scratch(2)](https://marshmellowon.github.io/2020/07/08/Deep_Learning_from_Scratch2.html)
