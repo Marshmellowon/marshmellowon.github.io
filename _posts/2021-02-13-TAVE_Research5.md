@@ -440,6 +440,9 @@ t_train = t_train[validation_num:]
 
 - 전체 코드는 [hyperparameter_optimization.py](https://github.com/Marshmellowon/DeepLearning_from_Scratch_TAVEr/blob/master/lec7_lec8/hyperparameter_optimization.py)에 있다.
 
-> 이 글에 나왔던 common 폴더는 \[[common](https://github.com/Marshmellowon/DeepLearning_from_Scratch_TAVEr/tree/master/common)] 여기에 있다.  
+> 이 글에 나왔던 common 폴더는 \[[common](https://github.com/Marshmellowon/DeepLearning_from_Scratch_TAVEr/tree/master/common)] 여기에 있다.
+
+###### References
+
 > <sub>강의: [CMU Introduction to Deep Learning](https://deeplearning.cs.cmu.edu/F20/index.html)</sub>  
 > <sub>코드: [밑바닥부터 시작하는 딥러닝](https://www.hanbit.co.kr/store/books/look.php?p_code=B8475831198)</sub>
