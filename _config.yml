@@ -57,6 +57,7 @@ sass:
   style: :compressed
 plugins:
   - jekyll-paginate
+plugins:
 	- jekyll-sitemap
 bootstrap:
   assets: true
