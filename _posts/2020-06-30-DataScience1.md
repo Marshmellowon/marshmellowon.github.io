@@ -3,10 +3,10 @@ layout: post
 title: "Data Science.Data & AI 시작하기(1)"
 date: 2020-06-30 18:43:25 +0900
 categories: [AI, Hanium, Blended_Learning]
-sitemap:
 lastmod: 2020-04-25 17:00:00
-changefreq: daily
-priority: 1.0
+sitemap:
+  changefreq: daily
+  priority: 1.0
 ---
 
 ## 1. Artificial Intelligence(인공지능)
@@ -51,10 +51,10 @@ priority: 1.0
 
 - 빅데이터 사용 예시
 
-  - Starbucks   
+  - Starbucks  
     스타벅스는 매장을 내기 전 빅데이터 기반으로 교통, 주변 인구 통계, 다른 스타벅스의 위치를 분석하여 최적의 입점위치를 선정한다. 고객에게는 스타벅스 어플을 통해 소비자 정보를 수집하고, 고객의 취향에 알맞는 신메뉴를 추천하는 서비스도 제공중이라고 한다.
 
-  - Zara    
+  - Zara  
     자라는 광고를 하지 않는다. 자라 매장은 매일 데이터 분석을 실시 한다. 모든 옷에 RFID태그가 붙어있어 고객들이 어떤 옷을 많이 사갔는지, 가장 많이 입어본 옷은 무엇인지 등의 데이터를 본사 디자이너에게 전달한다. 이런 데이터를 기반으로 새 옷을 디자인 하기때문에 1년에 단 2번의 세일로 재고관리가 가능하다는 것이다.
 
 <sub>강의 출처: [한이음 Microsoft Blended Learning](https://edu.hanium.or.kr/courses/course-v1:Squarenet+SQN101x+2020_T2/info)</sub>

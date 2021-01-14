@@ -8,8 +8,8 @@ comments: True
 date: 2020-04-14
 lastmod: 2020-04-25 17:00:00
 sitemap:
-changefreq: daily
-priority: 1.0
+  changefreq: daily
+  priority: 1.0
 ---
 
 ## 요약

@@ -8,8 +8,8 @@ comments: True
 date: 2020-07-22
 lastmod: 2020-04-25 17:00:00
 sitemap:
-changefreq: daily
-priority: 1.0
+  changefreq: daily
+  priority: 1.0
 ---
 
 <sub>책 정보: [밑바닥부터 시작하는 딥러닝](https://www.hanbit.co.kr/store/books/look.php?p_code=B8475831198)</sub>

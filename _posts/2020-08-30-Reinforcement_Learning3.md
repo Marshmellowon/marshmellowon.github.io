@@ -8,8 +8,8 @@ comments: True
 date: 2020-08-31
 lastmod: 2020-08-17 12:00:00
 sitemap:
-changefreq: daily
-priority: 1.0
+  changefreq: daily
+  priority: 1.0
 ---
 
 > Leacture: [Deep Learning for everyone](https://www.youtube.com/playlist?list=PLQ28Nx3M4JrhkqBVIXg-i5_CVVoS1UzAv)

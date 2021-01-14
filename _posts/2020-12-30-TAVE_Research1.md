@@ -8,8 +8,8 @@ comments: True
 date: 2020-12-30
 lastmod: 2020-12-30 12:30:00
 sitemap:
-changefreq: daily
-priority: 1.0
+  changefreq: daily
+  priority: 1.0
 use_math: true
 ---
 

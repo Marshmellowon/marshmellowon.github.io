@@ -8,8 +8,8 @@ comments: True
 date: 2020-06-17
 lastmod: 2020-04-25 17:00:00
 sitemap:
-changefreq: daily
-priority: 1.0
+  changefreq: daily
+  priority: 1.0
 ---
 
 ## 유전 알고리즘이란?

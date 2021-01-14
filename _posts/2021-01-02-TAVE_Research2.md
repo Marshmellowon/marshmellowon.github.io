@@ -8,8 +8,8 @@ comments: True
 date: 2021-01-02
 lastmod: 2021-01-02 15:15:00
 sitemap:
-changefreq: daily
-priority: 1.0
+  changefreq: daily
+  priority: 1.0
 use_math: true
 ---
 
