@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Neural Network I
+title: "Neural Network I"
 subtitle: perceptron, activation function
 tags: [TAVE, TAVE Research, Deep Learning]
 author: marshmello

@@ -270,6 +270,7 @@ DEPENDENCIES
   github-pages
   grape-theme!
   jekyll-paginate
+  jekyll-sitemap
   rake (~> 12.0)
 
 BUNDLED WITH

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Neural Network IV
+title: "Neural Network IV"
 subtitle: forward propagation, backpropagation
 tags: [TAVE, TAVE Research, Deep Learning]
 author: marshmello

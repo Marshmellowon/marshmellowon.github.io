@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Neural Network II
+title: "Neural Network II"
 subtitle: derivative, gradient descent, softmax
 tags: [TAVE, TAVE Research, Deep Learning]
 author: marshmello

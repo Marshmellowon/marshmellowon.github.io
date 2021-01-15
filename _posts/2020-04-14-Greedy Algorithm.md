@@ -1,15 +1,16 @@
 ---
 layout: post
 title: "Greedy Algorithm"
-subtitle:
+subtitle: algorithm class
 tags: [Algorithm]
 author: marshmello
 comments: True
 date: 2020-04-14
-lastmod: 2020-04-25 17:00:00
+lastmod: 2021-01-15 21:52:00
 sitemap:
   changefreq: daily
   priority: 1.0
+use_math: false
 ---
 
 ## 요약

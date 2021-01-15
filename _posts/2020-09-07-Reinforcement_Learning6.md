@@ -1,12 +1,12 @@
 ---
 layout: post
-title: DQN(Deep Q Network)
+title: "DQN(Deep Q Network)"
 subtitle: TAVE 6TH Reinforcement Learning Study
 tags: [TAVE, DQN, Reinforcement Learning]
 author: marshmello
 comments: True
 date: 2020-12-30
-lastmod: 2020-08-17 12:00:00
+lastmod: 2021-01-15 21:52:00
 sitemap:
   changefreq: daily
   priority: 1.0

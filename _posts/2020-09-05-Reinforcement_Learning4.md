@@ -1,15 +1,16 @@
 ---
 layout: post
-title: About CNN, RNN
+title: "About CNN, RNN"
 subtitle: TAVE 6TH Reinforcement Learning Study
 tags: [TAVE, Deep Learning]
 author: marshmello
 comments: True
 date: 2020-09-04
-lastmod: 2020-08-17 12:00:00
+lastmod: 2021-01-15 21:52:00
 sitemap:
   changefreq: daily
   priority: 1.0
+use_math: false
 ---
 
 > Leacture: [Deep Learning for everyone](https://www.youtube.com/playlist?list=PLQ28Nx3M4JrhkqBVIXg-i5_CVVoS1UzAv)

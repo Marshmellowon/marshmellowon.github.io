@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Neural Network III
+title: "Neural Network III"
 subtitle: loss function, entropy, neural Network
 tags: [TAVE, TAVE Research, Deep Learning]
 author: marshmello

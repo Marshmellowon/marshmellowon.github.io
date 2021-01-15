@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Neural Network V
+title: "Neural Network V"
 subtitle: optimizer, batch normalization, hyperparameter
 tags: [TAVE, TAVE Research, Deep Learning]
 author: marshmello
