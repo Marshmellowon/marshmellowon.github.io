@@ -15,11 +15,13 @@ theme_settings:
     username: Sangwon Lee
     description: Photograph & Programming
     experience:
+      - start: 2021-02-06
+        experience: TAVE Management Team
       - start: 2020-12-20
         experience: TAVE Research
       - start: 2020-08-01
         end: 2020-11-28
-        experience: TAVE, 6TH
+        experience: TAVE 6TH
         site_link: https://blog.naver.com/t-ave
         linkName: TAVE
       - start: 2020-03-02
